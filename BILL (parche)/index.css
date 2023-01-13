@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    width: 100%;
+}
+.head{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 22vh;
+}
+.ss{
+width: 15vw;
+}
+.ks{
+    width: 15vw;
+}
+.container{
+    margin: auto;
+    width: 70vw;
+    display: grid;
+    justify-content: center;
+}
+.address{
+    margin-left: 20.5rem;
+    margin-top: -3rem;
+    font-size: 15px;
+}
+.aside{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: end;
+}
+.allinput{
+    margin-top: 2rem;
+}
+.name{
+    font-size: 18px;
+    font-weight: bold;
+}
+.master{
+    border: none;
+    border-bottom: dotted;
+    font-size: 18px;
+    padding-left: 1rem;
+    text-transform: capitalize;
+    word-spacing: 5px; 
+    width: 30vw;
+}
+.date{
+    border: none;
+    border-bottom: dotted;
+    width: 8vw;
+    padding-left: 1rem;
+    font-weight: bold;
+
+}
+.dateName{
+    font-size: 18px;
+    font-weight: bold;
+}
+.inputHeading{
+    margin-right: -7px;
+    border: 2px solid black;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+}
+.inputHeading1{
+ width: 30vw;
+}
+.inputHeading2{
+ width: 6vw;
+}
+.inputHeading3{
+ width: 8vw;
+}
+.inputHeading4{
+ width: 12vw;
+}
+.content{
+    margin-top: 3rem;
+}
+.maintextarea{
+
+}
+.textarea{
+    width: 28.9vw;
+    height: 50vh;
+    border: 2px solid black;
+    font-size: 18px;
+    padding-left: 1rem;
+    text-transform: capitalize;
+    
+
+}
+.textareaQty{
+    height: 50vh;
+    width: 5.4vw;
+    margin-left: -6px;
+    border: 2px solid black;
+    padding-left: 10px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+.second{
+    width: 6.9rem;
+}
+.third{
+    width: 10.9rem;
+}
+.totalName2{
+    margin-left: 28.9rem;
+    width: 13.6vw;
+    border: 2px solid black;
+    padding-left: 10px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.totalName{
+    width: 11.2vw;
+    border: 2px solid black;
+    padding-left: 10px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin-left: -8px;
+}
+.qrcode{
+    display: flex;
+    justify-content: end;
+    margin-top: 4rem;
+}
+.qrsrc{
+    width: 200px;
+}
+
+@media (max-width: 1300px) {
+
+    
+    .head{
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        align-items: center;
+        /* justify-content: space-between; */
+        height: 22vh;
+    }
+    .container{
+        width: 100%;
+        /* margin: auto; */
+        width: 70vw;
+        display: grid;
+        justify-content:center;
+    }
+   .ss{
+    width: 180px;
+    margin-left: 7rem;
+   } 
+   .address {
+    margin-left: 17rem;
+    margin-top: -3rem;
+    font-size: 10px;
+    width: 31vw;
+    text-align: center;
+}
+.ks{
+    width: 190px;
+    margin-left: 0rem;
+}
+.allinput{
+    margin-left: 10rem;
+}
+/* .content{
+    width: 100vw;
+    margin: auto;
+} */
+.master{
+    width: 45vw;
+    font-size: 15px;
+}
+.aside{
+    justify-content: start;
+    margin-left: 25rem;
+}
+.date{
+    width: 25vw;
+}
+.inputHeading1{
+    width: 45vw;
+}
+.inputHeading2{
+
+    width: 15vw;
+
+}
+.inputHeading3{
+    width: 15vw;
+}
+.inputHeading4{
+    width: 21vw;
+
+}
+/* .all{
+    
+    margin-left: 2rem;
+
+} */
+/* .maintextarea{
+    width: 100vw;
+    margin: auto;
+} */
+.textarea{
+width: 40vw;
+font-size: 15px;
+}
+.textareaQty{
+    width: 12.5vw;
+    font-size: 12px;
+}
+.second{
+  font-size: 12px;
+  width: 12vw;
+}
+.third{
+    width: 17vw;
+}
+.totalName2 {
+    margin-left: 10rem;
+    font-size: 11px;
+    width: 29vw;
+    height: 4vh;
+}
+.totalName {
+    width: 17vw;
+    font-size: 13px;
+    height: 4vh;
+    text-align: center;
+}
+.qrcode{
+ justify-content: center;   
+}
+.qrsrc {
+    width: 100px;
+}
+main{
+    width: 100vw;
+    margin: auto;
+    margin-top: 0rem;
+    margin-left: 10rem;
+}
+
+}
